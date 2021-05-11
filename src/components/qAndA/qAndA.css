@@ -1,0 +1,35 @@
+.qnaStyle div {
+  text-align: left;
+  padding: 5px 0;
+}
+
+.qnaStyle span {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.arrowDown {
+  transform: rotate(0deg);
+  transition: transform 0.1s linear;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+  transition: transform 0.1s linear;
+}
+
+.textBold{
+    font-weight: bolder;
+}
+
+hr{
+    border-top: 0.1px solid hsl(0deg 0% 64%);
+}

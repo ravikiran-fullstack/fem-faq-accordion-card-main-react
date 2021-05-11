@@ -1,0 +1,72 @@
+.faq-container {
+  width: 80%;
+  padding: 20px 0;
+  background: white;
+  border-radius: 20px;
+}
+
+.bg-pattern {
+  /* border: 1px solid green; */
+  background-image: url("../../assets/bg-pattern-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 130%;
+  position: relative;
+  /* top: -75px; */
+  left: -100px;
+}
+
+.women-online-image {
+  background-image: url("../../assets/illustration-woman-online-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 106%;
+  position: relative;
+  top: 50px;
+  left: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-pattern {
+    background-image: url("../../assets/bg-pattern-mobile.svg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    position: static;
+  }
+
+  .women-online-image {
+    background-image: url("../../assets/illustration-woman-online-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    left: -50px;
+  }
+
+  .faq-heading {
+    text-align: center !important;
+  }
+}
+
+.faqs {
+  /* border: 1px solid blue; */
+  padding: 5% 1% 0 2%;
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+}
+
+.faq-heading {
+  text-align: left;
+  margin-bottom: 20px;
+}
