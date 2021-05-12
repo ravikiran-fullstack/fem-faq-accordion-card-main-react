@@ -5,9 +5,9 @@ const QAndA = ({qna}) => {
     const [showAnswer, setShowAnswer] = useState(false);
     return (
         <div className="qnaStyle">
-            <div className="row">
+            <div className="row" onClick={()=> setShowAnswer(!showAnswer)}>
                 <div className={showAnswer ? "textBold" : ""}>{qna.question}</div>
-                <div><span onClick={()=> setShowAnswer(!showAnswer)}><img className={showAnswer? "arrowUp": "arrowDown"} src={arrow} alt="arrow" /></span></div>
+                <div><img className={showAnswer? "arrowUp": "arrowDown"} src={arrow} alt="arrow" /></div>
             </div>
             <div className={showAnswer? "show": "hidden"}>{qna.answer}</div>
             <hr />

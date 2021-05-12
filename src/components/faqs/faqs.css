@@ -1,5 +1,6 @@
 .faq-container {
-  width: 80%;
+  width: 70%;
+  height: 80vh;
   padding: 20px 0;
   background: white;
   border-radius: 20px;
@@ -11,34 +12,55 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  width: 130%;
+  height: 80vh;
+  width: 40vw;
+  left: -50px;
   position: relative;
-  /* top: -75px; */
-  left: -100px;
 }
 
 .women-online-image {
+  /* height: 500px; */
   background-image: url("../../assets/illustration-woman-online-desktop.svg");
+  background-position: top;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  width: 106%;
-  position: relative;
-  top: 50px;
+  background-size: contain;
+  height: 503px;
+  width: 40vw;
   left: -50px;
+  position: relative;
+  top: 90px;
+}
+
+.boxImage {
+  background-image: url("../../assets/illustration-box-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+  position: relative;
+  top: 160px;
+  left:-70px;
+  height: 40%;
+  width: 40%;
 }
 
 @media only screen and (max-width: 600px) {
+
+  .faq-container{
+    padding: 0 !important;
+    height: 70vh;
+  }
+
   .bg-pattern {
     background-image: url("../../assets/bg-pattern-mobile.svg");
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100px;
-    width: 100%;
-    position: static;
+    height: 175px;
+    width: 250px;
+    position: relative;
+    left: 0px;
+    top: -15px;
   }
 
   .women-online-image {
@@ -46,27 +68,41 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    height: 200px;
+    width: 271px;
     position: relative;
-    top: 50px;
-    left: -50px;
+    top: -72px;
+    left: -27px;
+  }
+
+  .boxImage {
+    display: none;
   }
 
   .faq-heading {
     text-align: center !important;
+    margin-bottom: 10px !important;
+  }
+
+  .faqs {
+    padding: 2% 5% 0 5% !important;
   }
 }
 
 .faqs {
   /* border: 1px solid blue; */
-  padding: 5% 1% 0 2%;
+  padding: 5% 10% 0 2%;
   /* border: 1px solid red; */
   height: 100%;
   width: 100%;
+  overflow: overlay;
 }
 
 .faq-heading {
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.qnaStyle {
+  margin-bottom: 10px;
 }

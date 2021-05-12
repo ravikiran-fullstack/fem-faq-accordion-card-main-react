@@ -1,6 +1,6 @@
 .qnaStyle div {
   text-align: left;
-  padding: 5px 0;
+  padding: 7px 0;
 }
 
 .qnaStyle span {
@@ -10,6 +10,7 @@
 
 .show {
   display: block;
+  padding-bottom: 15px !important;
 }
 
 .hidden {
@@ -28,6 +29,7 @@
 
 .textBold{
     font-weight: bolder;
+    color:hsl(238, 29%, 16%);
 }
 
 hr{

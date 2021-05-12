@@ -32,10 +32,14 @@ const Faqs = () => {
 
   return (
     <div className="faq-container row center direction">
-      <div className="bg-pattern">
-          <div className="women-online-image"></div>
+      <div className="col-1">
+          <div className="bg-pattern">
+            <div className="women-online-image">
+              <div className="boxImage"></div>
+            </div>
+          </div>
       </div>
-      <div className="faqs">
+      <div className="faqs col-3">
         <div className="faq-heading">
           <h1>FAQ</h1>
         </div>
